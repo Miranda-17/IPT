@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[Order] (Table)
+       [dbo].[CreateOrder] (Procedure)
+       [dbo].[UpdateOrder] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[DeleteOrder] (Procedure)
+       [dbo].[SelectAllOrders] (Procedure)
+       [dbo].[SelectOrder] (Procedure)
+
+If this deployment is executed, changes to [dbo].[Order] might introduce run-time errors in [dbo].[SelectOrderByOrderId].
+
